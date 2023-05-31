@@ -1,8 +1,8 @@
 package DesignPatern2022;
 
 public class ServiceSelector {
-    PaymentController paymentController;
-    ReservationController reservationController;
+    FrontController paymentController;
+    FrontController reservationController;
 
     public void serController(PaymentController paymentController,ReservationController reservationController){
         this.paymentController=paymentController;
