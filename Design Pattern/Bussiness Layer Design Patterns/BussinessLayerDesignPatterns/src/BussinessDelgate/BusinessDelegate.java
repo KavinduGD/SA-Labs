@@ -2,6 +2,7 @@ package BussinessDelgate;
 
 public class BusinessDelegate {
     private BusinessLookUp lookupService = new BusinessLookUp();
+    
     private BusinessService businessService;
     private String serviceType;
  
