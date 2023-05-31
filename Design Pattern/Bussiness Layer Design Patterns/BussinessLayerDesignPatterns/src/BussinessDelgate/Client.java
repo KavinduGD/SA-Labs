@@ -1,14 +1,17 @@
 package BussinessDelgate;
 
 public class Client {
-	
-    BusinessDelegate businessService;
- 
-    public Client(BusinessDelegate businessService){
-       this.businessService  = businessService;
-    }
- 
-    public void doTask(){		
-       businessService.doTask();
-    }
+	public static void main(String[] args) {
+      
+      BusinessDelegate businessDelegate = new BusinessDelegate();
+       
+      businessDelegate.setServiceType("EJB");
+      businessDelegate.doTask();
+
+      businessDelegate.setServiceType("JMS");
+      businessDelegate.doTask();
+
+
+   }
+
  }
