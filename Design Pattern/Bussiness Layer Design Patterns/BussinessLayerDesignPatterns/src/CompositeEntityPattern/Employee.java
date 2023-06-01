@@ -6,18 +6,25 @@ public class Employee {
     protected double salary;
 
     public Employee(String name,double salary){
-        this.name= name;
+        this.name=name;
         this.salary= salary;
     }
-
-    
-    public void display(){
-     
+    public String getname(){
+        return this.name;
     }
 
-
-    public void addEmployees(Employee developer1) {
+    public double getSalary(){
+        return this.salary;
     }
+
+    public void print(){ }
+
+    public void addEmployee(Employee employee){}
+
+    public void removeEmployee(Employee employee) {}
+
+    public void getChild(int i){}
+
     
 
     

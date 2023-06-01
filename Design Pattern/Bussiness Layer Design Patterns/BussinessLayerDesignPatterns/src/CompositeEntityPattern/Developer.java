@@ -7,7 +7,7 @@ public class Developer extends Employee {
        
     }
 
-    public void display(){
+    public void print(){
         System.out.println("======================");
         System.out.println("name = "+this.name);
         System.out.println("Salary = "+ this.salary);
