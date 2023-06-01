@@ -16,15 +16,7 @@ public class Manager extends Employee{
         employeeList.add(employee);
     }
 
-    // public void removeEmployee(Employee emp){
-    //     for (Employee employee : employeeList) {
-    //         if(employee==emp){
-    //             employeeList.remove(employee);
-    //         }
-    //     }
-
-    // }
-
+  
     public Employee getEmployee(int i){
         return employeeList.get(i);
     }
@@ -40,7 +32,7 @@ public class Manager extends Employee{
            Employee employee= employeeList.get(i);
            employee.print();
        }
-    }
+    } 
 
     
 }
